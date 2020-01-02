@@ -17,5 +17,6 @@ const titleCased = () => {
 
 function wordTitleCased(title){
   let words = title.split(" ")
-  return words.map(word=>word.replace(word[0],word[0].toUpperCase()))
+  let wordsArray = words.map(word=>word.replace(word[0],word[0].toUpperCase()))
+  return wordsArray.join(" ")
 }
