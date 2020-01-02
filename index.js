@@ -15,6 +15,6 @@ const titleCased = () => {
   return tutorials.map(wordTitleCased)
 }
 
-function wordTitleCased(){
-
+function wordTitleCased(word){
+  word.split(" ")
 }
