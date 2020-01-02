@@ -16,5 +16,5 @@ const titleCased = () => {
 }
 
 function wordTitleCased(){
-  
+
 }
